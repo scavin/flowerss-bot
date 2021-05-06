@@ -15,8 +15,8 @@ const (
 var (
 	authToken   = config.TelegraphToken
 	socks5Proxy = config.Socks5
-	authorUrl   = "https://github.com/indes/flowerss-bot"
-	authorName  = "flowerss"
+	authorUrl   = ""
+	authorName  = "Article"
 	verbose     = false
 	//client     *telegraph.Client
 	clientPool []*telegraph.Client
